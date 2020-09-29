@@ -5,3 +5,67 @@
 .main-image-text{
     flex-direction: column;
 }
+
+.bloco-cores{
+    padding: 50px;
+    background-image: linear-gradient(to left, rgba(21, 38, 18, 0.8), rgba(36, 33, 16, 0.8)), url(img/background-branco\ -\ pb.jpg);
+}
+.wrapper-cores{
+    padding: 50px;    
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    justify-content: center;
+}
+
+.wrapper-cores .cores-content{
+    display: block;
+    background-color: #fff;
+    height: 280px;
+    background: #353535;
+    font-size: 3rem;
+    color: #fff;
+    box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+    width: 100%;
+    border-radius: 4px;
+    transition: all 500ms;
+    overflow: hidden;
+}
+
+
+
+.wrapper-cores .cores-content img{
+    height: 100%;
+    transition: 500ms ease-in-out;
+}
+
+.wrapper-cores .cores-content:hover img{
+    transform: scale(0.8)
+}
+
+.cores-content:hover {
+    box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+    transform: translateY(-3px) scale(1.1);
+ }
+
+ .cores-content:nth-child(1):hover {
+    background: #f00;
+ }
+
+ .cores-content:nth-child(2):hover {
+    background: darkgreen;
+ }
+
+ .cores-content:nth-child(3):hover {
+    background: #00f;
+ }
+
+ .cores-content:nth-child(4):hover {
+    background: lightgray;
+ }
+
+ .cores-content:nth-child(5):hover {
+    background: #000;
+ }
