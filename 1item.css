@@ -1,0 +1,8 @@
+.mainImage{
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-content: : flex-end;
+	height: 40vh;
+	background-color: rgba(241,179,179,0.5);
+}

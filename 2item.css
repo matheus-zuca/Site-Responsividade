@@ -1,0 +1,50 @@
+
+.chamada{
+	background-color: rgba(0,0,0,0.8);
+	height: 300px;
+	color: white;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	grid-template-areas: "title title"
+	"img texto"
+	"img texto"
+	"img botao";
+	padding: 10px 80px;
+	justify-content: center;
+	grid-gap: 20px;
+}
+
+.chamada #title{
+	display: flex;
+	justify-content: center;
+	grid-area: title;
+}
+
+.chamada #img{
+	display: flex;
+	justify-content: center;
+	grid-area: img;	
+	flex-wrap: wrap;
+}
+
+.chamada #img img{
+	height: 80%;
+	padding: 2px;
+}
+.chamada #texto{
+	grid-area: texto;
+	text-align: center;
+}
+
+.chamada #botao{
+	grid-area:botao;
+	display: flex;
+	justify-content: center;
+}
+
+.chamada #botao a{
+	display: block;
+	color: white;
+	text-decoration: none;
+}
