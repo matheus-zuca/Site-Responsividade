@@ -38,6 +38,7 @@
 
 .wrapper-cores .cores-content img{
     height: 100%;
+    max-width: 280px;
     transition: 500ms ease-in-out;
 }
 

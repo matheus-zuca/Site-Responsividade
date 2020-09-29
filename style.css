@@ -48,6 +48,43 @@ header ul li:hover{
     color:#e94c13;
 }
 
+label[for="btn_menu"]{
+    padding: 5px;
+    background-color: #222;
+    color: #fff;
+    text-align: center ;
+    font-size: 30px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    visibility: hidden;
+}
+
+input[type="checkbox"]{
+    visibility: hidden;
+}
+
+@media(max-width: 800px){
+    label[for="btn_menu"]{
+        visibility: visible;
+    }
+
+    .nav{
+        margin-left: -100%;
+    }
+    .header ul{
+        flex-direction: column;
+    }
+
+    .Futuro-Zendikar .container{
+        flex-direction: column;
+    }
+
+    .container .card{
+        width: 100%;
+    }
+}
+
 nav{
     padding: 0px 50px;
 }
@@ -90,7 +127,6 @@ nav{
 }
 
 .container{
-
     width: 80vw;
     display: flex;
     justify-content: space-between;
