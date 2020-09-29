@@ -1,0 +1,7 @@
+.main-image{
+    background-image: linear-gradient(to left, rgba(146, 123, 53, 0.4), rgba(37, 53, 17, 0.4)), url(img/background\ -\ zendikar\ -\ pb.jpg);
+}
+
+.main-image-text{
+    flex-direction: column;
+}
